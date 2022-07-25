@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+* {
+  font-family: 'Comic Neue', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  background: linear-gradient(to right, #1a1a1a, #434345);
+  width: 100%;
+}
+
+/* navigation start */
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background: linear-gradient(to right, #1a1a1a, #434345);
+}
+.nav {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.navtab {
+  list-style: none;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #e8e8ef;
+}
+
+.navtab:hover {
+  background-color: #e8e8ef;
+  transition: all ease-in-out .25s;
+}
+.navtab:hover > a{
+  color: #383838;
+}
+/* navigation end */
+
+/* about start*/
+.wrapAbout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #e8e8ef;
+  padding-top: 5em;
+
+}
+.teksabout {
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+  word-spacing: 0.5;
+  letter-spacing: 15;
+}
+.aboutgambar {
+  width: 200px;
+  margin: 15px;
+  border-radius: 300px;
+}
+.link {
+  text-decoration: none;
+  color: #e8e8ef;
+  font-weight: bold;
+}
+/* about end */
+
+/* profile start  */
+.profil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profilegambar {
+  height: 25em;
+}
+.teksprofile {
+  box-sizing: border-box;
+  color: #e8e8ef;
+  width: 50%;
+  padding: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+/* profile end  */
+
+/* contact start  */
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapicon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  list-style: none;
+  margin: 20px;
+}
+.icon a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e8e8ef;
+  text-align: center;
+  justify-content: center;
+  box-shadow: -8px 8px 5px #1a1a1a;
+    transition: .6s;
+}
+.icon a:hover {
+  transform: translate(0, -10px);
+}
+.icon a .fa {
+  font-size: 30px;
+  color: #383838;
+  margin-top: 25%;
+  transition: .6s;
+}
+/* contact end  */
